@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>weddings and honeymoons</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.2/css/bootstrap.min.css"
+    />
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.2/js/bootstrap.min.js"
+      defer
+    ></script>
+  </head>
+  <style>
+    body{
+        font-family: sans-serif;
+    }
+
+    html {
+        scroll-behavior: smooth;
+    }
+    .footer {
+  background: #010f2a;
+  color: #b5a191;
+}
+
+form textarea {
+  resize: none;
+  outline: none;
+}
+</style>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top bg-light">
+      <a class="navbar-brand" href="/"
+        ><img src="/Image/logos.png" alt="logo" height="70" width="70" />
+        SABRINA</a
+      >
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div
+        class="collapse navbar-collapse d-flex justify-content-end mx-5"
+        id="navbarNav"
+      >
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link btn btn-success" href="/assets/safari"
+              >SAFARIS</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">WEDDINGS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/assets/meeting">MEETINGS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/assets/offer">OFFERS</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div class="image-show position-relative">
+        <img src="/Image/honey.jpg" alt="" height="750" style="width: 100vw;">
+        <p class="fs-3 position-absolute bottom-50 start-50 translate-middle fw-light text-center text-white p-2" style="background-color: rgba(0,0,0, .55);">Best Wedding Scenaries and Honeymoon Locales <br> At Fair Prices</p>
+    </div>
+
+    <div class="wedding-intro mt-3">
+        <p class="text-center fw-semibold fs-4">BRINGING HERITAGE TO EVERY CEREMONY</p>
+        <p class="text-center fw-semibold fs-3" style="color: saddlebrown;">CUSTOM IS CUSTOMARY</p>
+
+        <div class="desc-text" style="max-width: 1600px;">
+            <p style="width: 50%; margin: 20px auto;" class="text-center">Sabrina enables you to create memorable one-of-a-kind experiences with our unique secanries during your special occasions. Do you fancy a private locale or a nuptial rite held by the lake, well look no further. We have you covered.</p>
+        </div>
+    </div>
+
+    <div class="featured-wedding-scenes my-5">
+        <h4 class="text-center fw-bold desc">THE GRANDEST</h4>
+        <div class="container">
+            <div class="col-sm d-flex justify-content-center">
+                <div class="card" style="width: 18rem;">
+                    <img src="/Image/venue3.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <p class="card-text">SECRET GARDEN</p>
+                      <a href="/assets/weddingoffer" class="btn btn-warning fw-bold">BOOK NOW (FROM $4300)</a>
+                    </div>
+                  </div>
+                <div class="card mx-3" style="width: 18rem;">
+                    <img src="/Image/venue1.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <p class="card-text">DISNEYLAND</p>
+                      <a href="/assets/weddingoffer" class="btn btn-warning fw-bold">BOOK NOW (FROM $4500)</a>
+                    </div>
+                  </div>
+                <div class="card" style="width: 18rem;">
+                    <img src="/Image/venue2.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <p class="card-text">HARBOUR GRAND</p>
+                      <a href="/assets/weddingoffer" class="btn btn-warning fw-bold">BOOK NOW (FROM $4000)</a>
+                    </div>
+                  </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer d-flex flex-column">
+        <div class="wrapper d-flex p-3 justify-content-center">
+          <div class="contact mt-5">
+            <h6 class="mb-3 fw-bold">CONTACT US</h6> 
+            <p>+254 703 049 000</p>
+            <p>reservations.nairobi@sabrina.com</p> 
+          </div>
+          <div class="useful-info mx-4 mt-5">
+            <h6 class="mb-3 fw-bold">HELPFUL INFO</h6>
+            <div class="categories d-flex">
+              <div class="first-category">
+                <p>PRESS ROOM</p>  
+                <p>CONTACT US</p>          
+                <p>LOYALTY PROGRAMME</p>          
+                <p>BEST RATES GUARANTEE</p>          
+                <p>FAQ</p>              
+              </div>
+              <div class="second-category ms-5">
+                  <p>CAREERS</p>
+                  <p>ABOUT US</p>
+                  <p>IMPRINT</p>
+                  <p>LEGAL</p>
+                  <p>SITEMAP</p>
+              </div>
+            </div>
+          </div>
+          <div class="message-center mt-5">
+            <h6 class="fw-bold">SEND ANY QUESTIONS HERE</h6>
+            <form action="/send" method="post" class="d-flex flex-column">
+              <textarea name="question" id="question" cols="30" rows="2"></textarea>
+              <button class="btn btn-warning mt-2">Send Message</button>
+            </form>
+            <div class="credits mt-2">
+              <p>&copy; 2022 SABRINA HOTEL AND RESORT</p>
+            </div>
+          </div>
+        </div>
+          <div class="footer-end">
+            <p class="text-center">SABRINA HOTEL AND RESORT NAIROBI, CHIROMO ROAD, 00080, NAIROBI KENYA +254 703 049 000</p>
+          </div>
+        
+      </footer>
+  </body>
+</html>

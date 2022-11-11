@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fill details below</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.2/css/bootstrap.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.2/js/bootstrap.min.js" defer></script>
+</head>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+    body{
+        font-family: 'Poppins', sans-serif;
+    }
+</style>
+<body>
+    <div class="container d-flex align-items-center justify-content-center flex-column" style="min-height: 100vh;">
+        <h3 class="text-center fw-bold">Wedding Offers</h3>
+        <form action="/assets" method="post">
+            <input type="text" name="wedding" id="wedding" value="Wedding Offers" hidden>
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label">Email address</label>
+              <input type="email" class="form-control" id="email" name="email" aria-describedby="emailHelp">
+              <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputPassword1" class="form-label">Phone Number</label>
+              <input type="tel" class="form-control" id="phone" name="phone">
+            </div>
+            <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label">Checkout Date</label>
+                <input type="date" class="form-control" id="date" name="date">
+            </div>
+            <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label">Adults</label>
+                <input type="number" class="form-control" id="adult" name="adult">
+            </div>
+            <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label">Children</label>
+                <input type="number" class="form-control" id="child" name="child">
+            </div>
+            
+            <button type="submit" class="btn btn-primary mx-5">Submit</button>
+            <a href="/" class="btn btn-warning">Main Page</a>
+          </form>
+    </div>
+</body>
+</html>
